@@ -23,7 +23,7 @@
       var FaviData = localStorage.getItem("Favi");
       console.log("Loaded title `" + TitleData + "` with icon `" + "/" + FaviData + "`");
       if (TitleData === null) {
-        document.title = cum games";
+        document.title = "cum games";
         document.querySelector("link[rel='shortcut icon']").href = '/assets/img/favicon.ico';
       }
       else {
@@ -58,7 +58,7 @@
             window.location.href = urls[1];
           } if (localStorage.getItem("Title") == "Tassomai") {
             window.location.href = urls[2];
-          } if (localStorage.getItem("Title") == "JustStudy") {
+          } if (localStorage.getItem("Title") == "cum games") {
             const randomIndex = Math.floor(Math.random() * 3);
             window.location.href = urls[randomIndex];
           }
@@ -101,46 +101,7 @@
     justify-content: center;
 
   ">
-      <div class="AnnouncementBox" style="
-      max-height: 90%;
-      width: 80%;
-      max-width: 900px;
-      background-color: #2f3136;
-      border-radius: 16px;
-      padding: 2rem;
-      text-align: left;
-      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5);
-      color: #ffffff;
-      position: relative;
-      overflow-y: auto;
-    ">
-        <button onclick="document.querySelector('.announcementcontainer').style.display='none';" style="
-        position: absolute;
-        top: 15px;
-        right: 15px;
-        background: none;
-        border: none;
-        font-size: 2rem;
-        color: #ffffff;
-        cursor: pointer;
-      ">
-          &times;
-        </button>
 
-        <h2 style="
-        margin-bottom: 1.5rem;
-        font-family: Comfortaa, sans-serif;
-        font-size: 2rem;
-        text-align: center;
-      ">
-        
-      
-      
-          <hr style="
-          border: none;
-          border-top: 1px solid #7289da;
-          margin: 1.5rem 0;
-        " />
           <p>
           
           </p>
@@ -177,7 +138,7 @@
     <div id="welcomeToast" class="toast Not_color_bottom" role="alert" aria-live="assertive" aria-atomic="true">
       <div class="toast-header Not_color_top">
         <i class="fa fa-bell white-text" aria-hidden="true"></i>
-        <strong class="me-auto white-text">&nbsp;&nbsp;&nbsp;Welcome!</strong>
+        <strong class="me-auto white-text">&nbsp;&nbsp;&nbsp;cum!</strong>
         <small></small>
         <button type="button" class="btn-close white-bg" data-bs-dismiss="toast" aria-label="Close"></button>
       </div>
@@ -339,7 +300,7 @@
     </a>
     <h1 class="page-title"
       style="font-size: 4vw; color: white; margin: 0; text-align: center; flex-grow: 1; position: relative; right: 8vw; z-index: -1; font-weight: bold;">
-      GooglyGiraffeSigma
+     cum games
     </h1>
     <input class="topBarItems searchBar" type="text" id="search-bar" placeholder="Search">
   </div>
